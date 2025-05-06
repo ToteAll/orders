@@ -11,3 +11,17 @@ products:
     deliveryCharge: 20.00
   - name: Pallet
     deliveryCharge: 45.00
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orders
+    username: orders
+    password: orders
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
