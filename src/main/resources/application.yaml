@@ -1,0 +1,13 @@
+products:
+  - name: Small Parcel
+    deliveryCharge: 4.50
+  - name: Medium Box
+    deliveryCharge: 8.75
+  - name: Large Box
+    deliveryCharge: 12.99
+  - name: Envelope
+    deliveryCharge: 2.99
+  - name: Crate
+    deliveryCharge: 20.00
+  - name: Pallet
+    deliveryCharge: 45.00

@@ -1,4 +1,4 @@
-package com.toteall.locations;
+package com.toteall.orders;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
